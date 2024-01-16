@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C83D2411BB2F73E00F9048F /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C83D2401BB2F73E00F9048F /* Helper.m */; };
+		1C83D2441BB2FBBF00F9048F /* UIEvent+iOS8.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C83D2431BB2FBBF00F9048F /* UIEvent+iOS8.m */; };
+		3CCAF05E1A7A86A70023607E /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CCAF05D1A7A86A70023607E /* Launch Screen.xib */; };
+		3CDB12801AE6EBD30066B9C5 /* Brush.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB127F1AE6EBD30066B9C5 /* Brush.m */; };
+		3CDB12811AE6EBD30066B9C5 /* Brush.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB127F1AE6EBD30066B9C5 /* Brush.m */; };
+		4D2273851D2A6AA4008AEE13 /* LamyPrototypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D22737A1D2A6AA4008AEE13 /* LamyPrototypeViewController.m */; };
+		4D2273861D2A6AA4008AEE13 /* LamyPrototypeOverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D22737C1D2A6AA4008AEE13 /* LamyPrototypeOverlayViewController.m */; };
+		4D2273871D2A6AA4008AEE13 /* LamyLineWidthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D22737E1D2A6AA4008AEE13 /* LamyLineWidthView.m */; };
+		4D2273881D2A6AA4008AEE13 /* LamyColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2273801D2A6AA4008AEE13 /* LamyColorView.m */; };
+		4D2273891D2A6AA4008AEE13 /* LamyVerticalSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2273821D2A6AA4008AEE13 /* LamyVerticalSliderView.m */; };
+		4D22738A1D2A6AA4008AEE13 /* LamySelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2273841D2A6AA4008AEE13 /* LamySelectionView.m */; };
+		4D22738D1D2A6DC2008AEE13 /* BrushLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D22738C1D2A6DC2008AEE13 /* BrushLibrary.swift */; };
+		4D2273911D2A6F65008AEE13 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D22738F1D2A6F65008AEE13 /* Colors.swift */; };
+		4D2273921D2A6F65008AEE13 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2273901D2A6F65008AEE13 /* Numbers.swift */; };
+		4D22739A1D2B597C008AEE13 /* ColorPaletteLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2273991D2B597C008AEE13 /* ColorPaletteLibrary.swift */; };
+		4D75A99D1FFF321D00F5ED80 /* LamyRadiusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D75A99C1FFF321D00F5ED80 /* LamyRadiusView.m */; };
+		4D82FD8C1FCC103300BD9240 /* PressedConnectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D82FD8A1FCC103200BD9240 /* PressedConnectionViewController.m */; };
+		4D82FD8F1FCC129000BD9240 /* PressToConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D82FD8E1FCC129000BD9240 /* PressToConnectViewController.m */; };
+		4D8951A51FB53E7F000F30E3 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4D8951A41FB53E7F000F30E3 /* Settings.bundle */; };
+		4DAA728F2B47E44300DD39F8 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7747ECD11A1BDF3B00D18429 /* CoreBluetooth.framework */; };
+		4DAA72902B47E44900DD39F8 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7747ECCF1A1BDF2900D18429 /* CoreMotion.framework */; };
+		4DAA72912B47E45100DD39F8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7747ECD31A1BDF4F00D18429 /* SystemConfiguration.framework */; };
+		4DB71A8D1FB57A3C004F53E4 /* ConnectionStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB71A8C1FB57A3C004F53E4 /* ConnectionStatusViewController.m */; };
+		4DB71A901FB5812F004F53E4 /* StylusDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB71A8E1FB5812E004F53E4 /* StylusDetailTableViewController.m */; };
+		4DB71A921FB5AFEE004F53E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DB71A911FB5AFEE004F53E4 /* Assets.xcassets */; };
+		4DB71A971FBD3385004F53E4 /* WritingStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB71A931FBD3383004F53E4 /* WritingStyleViewController.m */; };
+		4DB71A981FBD3385004F53E4 /* WritingStyleSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB71A951FBD3384004F53E4 /* WritingStyleSelectionView.m */; };
+		4DB71A9B1FBD5E7C004F53E4 /* ShortcutButtonsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB71A991FBD5E7B004F53E4 /* ShortcutButtonsTableViewController.m */; };
+		4DE782162B3A854E00A9079C /* LamySDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE782152B3A854E00A9079C /* LamySDK.xcframework */; };
+		4DE7823E2B3AB31A00A9079C /* LamySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4DE7823B2B3AB2DA00A9079C /* LamySDK.bundle */; };
+		4DFA5DF71FCFAFAD00D0B949 /* LamyModelConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFA5DF61FCFAFAD00D0B949 /* LamyModelConnectViewController.m */; };
+		7717F9481A1CD859001706AE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7717F9471A1CD859001706AE /* MainStoryboard.storyboard */; };
+		7747EC821A1BDC9700D18429 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7747EC811A1BDC9700D18429 /* main.m */; };
+		7747EC851A1BDC9700D18429 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7747EC841A1BDC9700D18429 /* AppDelegate.m */; };
+		7747EC881A1BDC9700D18429 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7747EC871A1BDC9700D18429 /* ViewController.m */; };
+		7747EC9C1A1BDC9800D18429 /* LamySafariNoteplusExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7747EC9B1A1BDC9800D18429 /* LamySafariNoteplusExampleTests.m */; };
+		7747ECC01A1BDED100D18429 /* AbstractBezierPathElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 7747ECA81A1BDED100D18429 /* AbstractBezierPathElement.m */; };
+		7747ECC11A1BDED100D18429 /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7747ECAA1A1BDED100D18429 /* CanvasView.m */; };
+		7747ECC21A1BDED100D18429 /* CurveToPathElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 7747ECAD1A1BDED100D18429 /* CurveToPathElement.m */; };
+		7747ECC41A1BDED100D18429 /* LamyStatusIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7747ECB11A1BDED100D18429 /* LamyStatusIndicatorView.m */; };
+		7747ECC51A1BDED100D18429 /* LamyStatusHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7747ECB31A1BDED100D18429 /* LamyStatusHUD.m */; };
+		7747ECC61A1BDED100D18429 /* LineToPathElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 7747ECB51A1BDED100D18429 /* LineToPathElement.m */; };
+		7747ECC71A1BDED100D18429 /* MoveToPathElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 7747ECB71A1BDED100D18429 /* MoveToPathElement.m */; };
+		7747ECC81A1BDED100D18429 /* SegmentSmoother.m in Sources */ = {isa = PBXBuildFile; fileRef = 7747ECB91A1BDED100D18429 /* SegmentSmoother.m */; };
+		7747ECC91A1BDED100D18429 /* SmoothStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 7747ECBB1A1BDED100D18429 /* SmoothStroke.m */; };
+		7747ECCA1A1BDED100D18429 /* StylusSettingsButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7747ECBD1A1BDED100D18429 /* StylusSettingsButton.m */; };
+		7747ECCB1A1BDED100D18429 /* UIColor+Components.m in Sources */ = {isa = PBXBuildFile; fileRef = 7747ECBF1A1BDED100D18429 /* UIColor+Components.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7747EC961A1BDC9800D18429 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7747EC741A1BDC9700D18429 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7747EC7B1A1BDC9700D18429;
+			remoteInfo = JotTouchExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4D334C8D273CC7EC00EA1E46 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1C83D23F1BB2F73E00F9048F /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		1C83D2401BB2F73E00F9048F /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		1C83D2421BB2FBBF00F9048F /* UIEvent+iOS8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIEvent+iOS8.h"; sourceTree = "<group>"; };
+		1C83D2431BB2FBBF00F9048F /* UIEvent+iOS8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIEvent+iOS8.m"; sourceTree = "<group>"; };
+		3CCAF05D1A7A86A70023607E /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
+		3CDB127E1AE6EBD30066B9C5 /* Brush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brush.h; sourceTree = "<group>"; };
+		3CDB127F1AE6EBD30066B9C5 /* Brush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Brush.m; sourceTree = "<group>"; };
+		4D2273791D2A6AA4008AEE13 /* LamyPrototypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LamyPrototypeViewController.h; sourceTree = "<group>"; };
+		4D22737A1D2A6AA4008AEE13 /* LamyPrototypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LamyPrototypeViewController.m; sourceTree = "<group>"; };
+		4D22737B1D2A6AA4008AEE13 /* LamyPrototypeOverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LamyPrototypeOverlayViewController.h; sourceTree = "<group>"; };
+		4D22737C1D2A6AA4008AEE13 /* LamyPrototypeOverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LamyPrototypeOverlayViewController.m; sourceTree = "<group>"; };
+		4D22737D1D2A6AA4008AEE13 /* LamyLineWidthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LamyLineWidthView.h; sourceTree = "<group>"; };
+		4D22737E1D2A6AA4008AEE13 /* LamyLineWidthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LamyLineWidthView.m; sourceTree = "<group>"; };
+		4D22737F1D2A6AA4008AEE13 /* LamyColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LamyColorView.h; sourceTree = "<group>"; };
+		4D2273801D2A6AA4008AEE13 /* LamyColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LamyColorView.m; sourceTree = "<group>"; };
+		4D2273811D2A6AA4008AEE13 /* LamyVerticalSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LamyVerticalSliderView.h; sourceTree = "<group>"; };
+		4D2273821D2A6AA4008AEE13 /* LamyVerticalSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LamyVerticalSliderView.m; sourceTree = "<group>"; };
+		4D2273831D2A6AA4008AEE13 /* LamySelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LamySelectionView.h; sourceTree = "<group>"; };
+		4D2273841D2A6AA4008AEE13 /* LamySelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LamySelectionView.m; sourceTree = "<group>"; };
+		4D22738B1D2A6DC2008AEE13 /* LamyWorkshop-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LamyWorkshop-Bridging-Header.h"; sourceTree = "<group>"; };
+		4D22738C1D2A6DC2008AEE13 /* BrushLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrushLibrary.swift; sourceTree = "<group>"; };
+		4D22738F1D2A6F65008AEE13 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		4D2273901D2A6F65008AEE13 /* Numbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
+		4D2273991D2B597C008AEE13 /* ColorPaletteLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPaletteLibrary.swift; sourceTree = "<group>"; };
+		4D75A99B1FFF321C00F5ED80 /* LamyRadiusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LamyRadiusView.h; sourceTree = "<group>"; };
+		4D75A99C1FFF321D00F5ED80 /* LamyRadiusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LamyRadiusView.m; sourceTree = "<group>"; };
+		4D82FD8A1FCC103200BD9240 /* PressedConnectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PressedConnectionViewController.m; sourceTree = "<group>"; };
+		4D82FD8B1FCC103300BD9240 /* PressedConnectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PressedConnectionViewController.h; sourceTree = "<group>"; };
+		4D82FD8D1FCC129000BD9240 /* PressToConnectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PressToConnectViewController.h; sourceTree = "<group>"; };
+		4D82FD8E1FCC129000BD9240 /* PressToConnectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PressToConnectViewController.m; sourceTree = "<group>"; };
+		4D8951A41FB53E7F000F30E3 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		4DB71A8B1FB57A3C004F53E4 /* ConnectionStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionStatusViewController.h; sourceTree = "<group>"; };
+		4DB71A8C1FB57A3C004F53E4 /* ConnectionStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionStatusViewController.m; sourceTree = "<group>"; };
+		4DB71A8E1FB5812E004F53E4 /* StylusDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StylusDetailTableViewController.m; sourceTree = "<group>"; };
+		4DB71A8F1FB5812F004F53E4 /* StylusDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StylusDetailTableViewController.h; sourceTree = "<group>"; };
+		4DB71A911FB5AFEE004F53E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DB71A931FBD3383004F53E4 /* WritingStyleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WritingStyleViewController.m; sourceTree = "<group>"; };
+		4DB71A941FBD3383004F53E4 /* WritingStyleSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WritingStyleSelectionView.h; sourceTree = "<group>"; };
+		4DB71A951FBD3384004F53E4 /* WritingStyleSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WritingStyleSelectionView.m; sourceTree = "<group>"; };
+		4DB71A961FBD3385004F53E4 /* WritingStyleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WritingStyleViewController.h; sourceTree = "<group>"; };
+		4DB71A991FBD5E7B004F53E4 /* ShortcutButtonsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShortcutButtonsTableViewController.m; sourceTree = "<group>"; };
+		4DB71A9A1FBD5E7C004F53E4 /* ShortcutButtonsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShortcutButtonsTableViewController.h; sourceTree = "<group>"; };
+		4DE782152B3A854E00A9079C /* LamySDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = LamySDK.xcframework; path = ../../LamySDK.xcframework; sourceTree = "<group>"; };
+		4DE7823B2B3AB2DA00A9079C /* LamySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = LamySDK.bundle; path = ../../LamySDK.bundle; sourceTree = "<group>"; };
+		4DFA5DF51FCFAFAC00D0B949 /* LamyModelConnectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LamyModelConnectViewController.h; sourceTree = "<group>"; };
+		4DFA5DF61FCFAFAD00D0B949 /* LamyModelConnectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LamyModelConnectViewController.m; sourceTree = "<group>"; };
+		7717F9471A1CD859001706AE /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7747EC7C1A1BDC9700D18429 /* LamySafariNoteplusExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LamySafariNoteplusExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7747EC801A1BDC9700D18429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7747EC811A1BDC9700D18429 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7747EC831A1BDC9700D18429 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7747EC841A1BDC9700D18429 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7747EC861A1BDC9700D18429 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7747EC871A1BDC9700D18429 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7747EC951A1BDC9800D18429 /* LamySafariNoteplusExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LamySafariNoteplusExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7747EC9A1A1BDC9800D18429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7747EC9B1A1BDC9800D18429 /* LamySafariNoteplusExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LamySafariNoteplusExampleTests.m; path = ../LamySafariNoteplusExampleTests/LamySafariNoteplusExampleTests.m; sourceTree = "<group>"; };
+		7747ECA71A1BDED100D18429 /* AbstractBezierPathElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractBezierPathElement.h; sourceTree = "<group>"; };
+		7747ECA81A1BDED100D18429 /* AbstractBezierPathElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractBezierPathElement.m; sourceTree = "<group>"; };
+		7747ECA91A1BDED100D18429 /* CanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
+		7747ECAA1A1BDED100D18429 /* CanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
+		7747ECAC1A1BDED100D18429 /* CurveToPathElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurveToPathElement.h; sourceTree = "<group>"; };
+		7747ECAD1A1BDED100D18429 /* CurveToPathElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurveToPathElement.m; sourceTree = "<group>"; };
+		7747ECB01A1BDED100D18429 /* LamyStatusIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LamyStatusIndicatorView.h; sourceTree = "<group>"; };
+		7747ECB11A1BDED100D18429 /* LamyStatusIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LamyStatusIndicatorView.m; sourceTree = "<group>"; };
+		7747ECB21A1BDED100D18429 /* LamyStatusHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LamyStatusHUD.h; sourceTree = "<group>"; };
+		7747ECB31A1BDED100D18429 /* LamyStatusHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LamyStatusHUD.m; sourceTree = "<group>"; };
+		7747ECB41A1BDED100D18429 /* LineToPathElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineToPathElement.h; sourceTree = "<group>"; };
+		7747ECB51A1BDED100D18429 /* LineToPathElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineToPathElement.m; sourceTree = "<group>"; };
+		7747ECB61A1BDED100D18429 /* MoveToPathElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveToPathElement.h; sourceTree = "<group>"; };
+		7747ECB71A1BDED100D18429 /* MoveToPathElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveToPathElement.m; sourceTree = "<group>"; };
+		7747ECB81A1BDED100D18429 /* SegmentSmoother.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentSmoother.h; sourceTree = "<group>"; };
+		7747ECB91A1BDED100D18429 /* SegmentSmoother.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentSmoother.m; sourceTree = "<group>"; };
+		7747ECBA1A1BDED100D18429 /* SmoothStroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothStroke.h; sourceTree = "<group>"; };
+		7747ECBB1A1BDED100D18429 /* SmoothStroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothStroke.m; sourceTree = "<group>"; };
+		7747ECBC1A1BDED100D18429 /* StylusSettingsButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StylusSettingsButton.h; sourceTree = "<group>"; };
+		7747ECBD1A1BDED100D18429 /* StylusSettingsButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StylusSettingsButton.m; sourceTree = "<group>"; };
+		7747ECBE1A1BDED100D18429 /* UIColor+Components.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Components.h"; sourceTree = "<group>"; };
+		7747ECBF1A1BDED100D18429 /* UIColor+Components.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Components.m"; sourceTree = "<group>"; };
+		7747ECCF1A1BDF2900D18429 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		7747ECD11A1BDF3B00D18429 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		7747ECD31A1BDF4F00D18429 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7747EC791A1BDC9700D18429 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAA728F2B47E44300DD39F8 /* CoreBluetooth.framework in Frameworks */,
+				4DAA72902B47E44900DD39F8 /* CoreMotion.framework in Frameworks */,
+				4DAA72912B47E45100DD39F8 /* SystemConfiguration.framework in Frameworks */,
+				4DE782162B3A854E00A9079C /* LamySDK.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7747EC921A1BDC9800D18429 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CAEF9641BC84525001B18A5 /* Path Elements */ = {
+			isa = PBXGroup;
+			children = (
+				7747ECA71A1BDED100D18429 /* AbstractBezierPathElement.h */,
+				7747ECA81A1BDED100D18429 /* AbstractBezierPathElement.m */,
+				7747ECB61A1BDED100D18429 /* MoveToPathElement.h */,
+				7747ECB71A1BDED100D18429 /* MoveToPathElement.m */,
+				7747ECB41A1BDED100D18429 /* LineToPathElement.h */,
+				7747ECB51A1BDED100D18429 /* LineToPathElement.m */,
+				7747ECAC1A1BDED100D18429 /* CurveToPathElement.h */,
+				7747ECAD1A1BDED100D18429 /* CurveToPathElement.m */,
+			);
+			name = "Path Elements";
+			sourceTree = "<group>";
+		};
+		3CAEF9681BC8456D001B18A5 /* Drawing Engine / Line Interpolation */ = {
+			isa = PBXGroup;
+			children = (
+				3CDB127E1AE6EBD30066B9C5 /* Brush.h */,
+				3CDB127F1AE6EBD30066B9C5 /* Brush.m */,
+				7747ECB81A1BDED100D18429 /* SegmentSmoother.h */,
+				7747ECB91A1BDED100D18429 /* SegmentSmoother.m */,
+				7747ECBA1A1BDED100D18429 /* SmoothStroke.h */,
+				7747ECBB1A1BDED100D18429 /* SmoothStroke.m */,
+				3CAEF9641BC84525001B18A5 /* Path Elements */,
+				7747ECBE1A1BDED100D18429 /* UIColor+Components.h */,
+				7747ECBF1A1BDED100D18429 /* UIColor+Components.m */,
+			);
+			name = "Drawing Engine / Line Interpolation";
+			sourceTree = "<group>";
+		};
+		3CAEF96A1BC847AC001B18A5 /* Interface / Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4D75A99B1FFF321C00F5ED80 /* LamyRadiusView.h */,
+				4D75A99C1FFF321D00F5ED80 /* LamyRadiusView.m */,
+				4D22738C1D2A6DC2008AEE13 /* BrushLibrary.swift */,
+				4D2273991D2B597C008AEE13 /* ColorPaletteLibrary.swift */,
+				4DB71A8B1FB57A3C004F53E4 /* ConnectionStatusViewController.h */,
+				4DB71A8C1FB57A3C004F53E4 /* ConnectionStatusViewController.m */,
+				4DFA5DF51FCFAFAC00D0B949 /* LamyModelConnectViewController.h */,
+				4DFA5DF61FCFAFAD00D0B949 /* LamyModelConnectViewController.m */,
+				7747ECB01A1BDED100D18429 /* LamyStatusIndicatorView.h */,
+				7747ECB11A1BDED100D18429 /* LamyStatusIndicatorView.m */,
+				7747ECB21A1BDED100D18429 /* LamyStatusHUD.h */,
+				7747ECB31A1BDED100D18429 /* LamyStatusHUD.m */,
+				4D22738B1D2A6DC2008AEE13 /* LamyWorkshop-Bridging-Header.h */,
+				3CCAF05D1A7A86A70023607E /* Launch Screen.xib */,
+				7717F9471A1CD859001706AE /* MainStoryboard.storyboard */,
+				4D82FD8B1FCC103300BD9240 /* PressedConnectionViewController.h */,
+				4D82FD8A1FCC103200BD9240 /* PressedConnectionViewController.m */,
+				4D8951A41FB53E7F000F30E3 /* Settings.bundle */,
+				4DB71A9A1FBD5E7C004F53E4 /* ShortcutButtonsTableViewController.h */,
+				4DB71A991FBD5E7B004F53E4 /* ShortcutButtonsTableViewController.m */,
+				4DB71A8F1FB5812F004F53E4 /* StylusDetailTableViewController.h */,
+				4DB71A8E1FB5812E004F53E4 /* StylusDetailTableViewController.m */,
+				7747ECBC1A1BDED100D18429 /* StylusSettingsButton.h */,
+				7747ECBD1A1BDED100D18429 /* StylusSettingsButton.m */,
+				4DB71A941FBD3383004F53E4 /* WritingStyleSelectionView.h */,
+				4DB71A951FBD3384004F53E4 /* WritingStyleSelectionView.m */,
+				4DB71A961FBD3385004F53E4 /* WritingStyleViewController.h */,
+				4DB71A931FBD3383004F53E4 /* WritingStyleViewController.m */,
+				4D82FD8D1FCC129000BD9240 /* PressToConnectViewController.h */,
+				4D82FD8E1FCC129000BD9240 /* PressToConnectViewController.m */,
+			);
+			name = "Interface / Storyboards";
+			sourceTree = "<group>";
+		};
+		4D2273781D2A6A91008AEE13 /* Prototypes */ = {
+			isa = PBXGroup;
+			children = (
+				4D2273791D2A6AA4008AEE13 /* LamyPrototypeViewController.h */,
+				4D22737A1D2A6AA4008AEE13 /* LamyPrototypeViewController.m */,
+				4D22737B1D2A6AA4008AEE13 /* LamyPrototypeOverlayViewController.h */,
+				4D22737C1D2A6AA4008AEE13 /* LamyPrototypeOverlayViewController.m */,
+				4D22737D1D2A6AA4008AEE13 /* LamyLineWidthView.h */,
+				4D22737E1D2A6AA4008AEE13 /* LamyLineWidthView.m */,
+				4D22737F1D2A6AA4008AEE13 /* LamyColorView.h */,
+				4D2273801D2A6AA4008AEE13 /* LamyColorView.m */,
+				4D2273811D2A6AA4008AEE13 /* LamyVerticalSliderView.h */,
+				4D2273821D2A6AA4008AEE13 /* LamyVerticalSliderView.m */,
+				4D2273831D2A6AA4008AEE13 /* LamySelectionView.h */,
+				4D2273841D2A6AA4008AEE13 /* LamySelectionView.m */,
+			);
+			name = Prototypes;
+			sourceTree = "<group>";
+		};
+		4D22738E1D2A6F58008AEE13 /* Swift Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4D22738F1D2A6F65008AEE13 /* Colors.swift */,
+				4D2273901D2A6F65008AEE13 /* Numbers.swift */,
+			);
+			name = "Swift Extensions";
+			sourceTree = "<group>";
+		};
+		4DAA728E2B47E44300DD39F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7747EC731A1BDC9700D18429 = {
+			isa = PBXGroup;
+			children = (
+				7747EC7E1A1BDC9700D18429 /* LamySafariNoteplusExample */,
+				7747EC981A1BDC9800D18429 /* LamySafariNoteplusSwiftExampleTests */,
+				7747EC7D1A1BDC9700D18429 /* Products */,
+				4DAA728E2B47E44300DD39F8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7747EC7D1A1BDC9700D18429 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7747EC7C1A1BDC9700D18429 /* LamySafariNoteplusExample.app */,
+				7747EC951A1BDC9800D18429 /* LamySafariNoteplusExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7747EC7E1A1BDC9700D18429 /* LamySafariNoteplusExample */ = {
+			isa = PBXGroup;
+			children = (
+				4D2273781D2A6A91008AEE13 /* Prototypes */,
+				7747EC861A1BDC9700D18429 /* ViewController.h */,
+				7747EC871A1BDC9700D18429 /* ViewController.m */,
+				7747ECA91A1BDED100D18429 /* CanvasView.h */,
+				7747ECAA1A1BDED100D18429 /* CanvasView.m */,
+				3CAEF96A1BC847AC001B18A5 /* Interface / Storyboards */,
+				3CAEF9681BC8456D001B18A5 /* Drawing Engine / Line Interpolation */,
+				7747ECCE1A1BDF1100D18429 /* Frameworks */,
+				7747EC7F1A1BDC9700D18429 /* Supporting Files */,
+			);
+			path = LamySafariNoteplusExample;
+			sourceTree = "<group>";
+		};
+		7747EC7F1A1BDC9700D18429 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DB71A911FB5AFEE004F53E4 /* Assets.xcassets */,
+				4D22738E1D2A6F58008AEE13 /* Swift Extensions */,
+				7747EC831A1BDC9700D18429 /* AppDelegate.h */,
+				7747EC841A1BDC9700D18429 /* AppDelegate.m */,
+				1C83D23F1BB2F73E00F9048F /* Helper.h */,
+				1C83D2401BB2F73E00F9048F /* Helper.m */,
+				1C83D2421BB2FBBF00F9048F /* UIEvent+iOS8.h */,
+				1C83D2431BB2FBBF00F9048F /* UIEvent+iOS8.m */,
+				7747EC801A1BDC9700D18429 /* Info.plist */,
+				7747EC811A1BDC9700D18429 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7747EC981A1BDC9800D18429 /* LamySafariNoteplusSwiftExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				7747EC9B1A1BDC9800D18429 /* LamySafariNoteplusExampleTests.m */,
+				7747EC991A1BDC9800D18429 /* Supporting Files */,
+			);
+			name = LamySafariNoteplusSwiftExampleTests;
+			path = LamySafariNoteplusExampleTests;
+			sourceTree = "<group>";
+		};
+		7747EC991A1BDC9800D18429 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7747EC9A1A1BDC9800D18429 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7747ECCE1A1BDF1100D18429 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DE7823B2B3AB2DA00A9079C /* LamySDK.bundle */,
+				4DE782152B3A854E00A9079C /* LamySDK.xcframework */,
+				7747ECD11A1BDF3B00D18429 /* CoreBluetooth.framework */,
+				7747ECCF1A1BDF2900D18429 /* CoreMotion.framework */,
+				7747ECD31A1BDF4F00D18429 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			path = LamySafariNoteplusExample;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7747EC7B1A1BDC9700D18429 /* LamySafariNoteplusExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7747EC9F1A1BDC9800D18429 /* Build configuration list for PBXNativeTarget "LamySafariNoteplusExample" */;
+			buildPhases = (
+				7747EC781A1BDC9700D18429 /* Sources */,
+				7747EC791A1BDC9700D18429 /* Frameworks */,
+				7747EC7A1A1BDC9700D18429 /* Resources */,
+				77E2E70E1A5C41AE00D0F850 /* Warn on TODOs and FIXMEs */,
+				4D334C8D273CC7EC00EA1E46 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LamySafariNoteplusExample;
+			productName = JotTouchExample;
+			productReference = 7747EC7C1A1BDC9700D18429 /* LamySafariNoteplusExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7747EC941A1BDC9800D18429 /* LamySafariNoteplusExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7747ECA21A1BDC9800D18429 /* Build configuration list for PBXNativeTarget "LamySafariNoteplusExampleTests" */;
+			buildPhases = (
+				7747EC911A1BDC9800D18429 /* Sources */,
+				7747EC921A1BDC9800D18429 /* Frameworks */,
+				7747EC931A1BDC9800D18429 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7747EC971A1BDC9800D18429 /* PBXTargetDependency */,
+			);
+			name = LamySafariNoteplusExampleTests;
+			productName = JotTouchExampleTests;
+			productReference = 7747EC951A1BDC9800D18429 /* LamySafariNoteplusExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7747EC741A1BDC9700D18429 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Adonit, USA";
+				TargetAttributes = {
+					7747EC7B1A1BDC9700D18429 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = VSB6AFM682;
+					};
+					7747EC941A1BDC9800D18429 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 7747EC7B1A1BDC9700D18429;
+					};
+				};
+			};
+			buildConfigurationList = 7747EC771A1BDC9700D18429 /* Build configuration list for PBXProject "LamySafariNoteplusExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hant",
+			);
+			mainGroup = 7747EC731A1BDC9700D18429;
+			productRefGroup = 7747EC7D1A1BDC9700D18429 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7747EC7B1A1BDC9700D18429 /* LamySafariNoteplusExample */,
+				7747EC941A1BDC9800D18429 /* LamySafariNoteplusExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7747EC7A1A1BDC9700D18429 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE7823E2B3AB31A00A9079C /* LamySDK.bundle in Resources */,
+				7717F9481A1CD859001706AE /* MainStoryboard.storyboard in Resources */,
+				4DB71A921FB5AFEE004F53E4 /* Assets.xcassets in Resources */,
+				4D8951A51FB53E7F000F30E3 /* Settings.bundle in Resources */,
+				3CCAF05E1A7A86A70023607E /* Launch Screen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7747EC931A1BDC9800D18429 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77E2E70E1A5C41AE00D0F850 /* Warn on TODOs and FIXMEs */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Warn on TODOs and FIXMEs";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nfind \"${SRCROOT}\" \\( -name \"*.h\" -or -name \"*.m\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7747EC781A1BDC9700D18429 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7747EC881A1BDC9700D18429 /* ViewController.m in Sources */,
+				4DB71A9B1FBD5E7C004F53E4 /* ShortcutButtonsTableViewController.m in Sources */,
+				4D2273881D2A6AA4008AEE13 /* LamyColorView.m in Sources */,
+				7747EC851A1BDC9700D18429 /* AppDelegate.m in Sources */,
+				7747ECCA1A1BDED100D18429 /* StylusSettingsButton.m in Sources */,
+				7747ECC21A1BDED100D18429 /* CurveToPathElement.m in Sources */,
+				4DFA5DF71FCFAFAD00D0B949 /* LamyModelConnectViewController.m in Sources */,
+				7747ECC51A1BDED100D18429 /* LamyStatusHUD.m in Sources */,
+				4D2273911D2A6F65008AEE13 /* Colors.swift in Sources */,
+				4D22739A1D2B597C008AEE13 /* ColorPaletteLibrary.swift in Sources */,
+				1C83D2441BB2FBBF00F9048F /* UIEvent+iOS8.m in Sources */,
+				4D82FD8C1FCC103300BD9240 /* PressedConnectionViewController.m in Sources */,
+				4D2273921D2A6F65008AEE13 /* Numbers.swift in Sources */,
+				4DB71A8D1FB57A3C004F53E4 /* ConnectionStatusViewController.m in Sources */,
+				7747ECC81A1BDED100D18429 /* SegmentSmoother.m in Sources */,
+				4D82FD8F1FCC129000BD9240 /* PressToConnectViewController.m in Sources */,
+				7747ECC61A1BDED100D18429 /* LineToPathElement.m in Sources */,
+				4D22738A1D2A6AA4008AEE13 /* LamySelectionView.m in Sources */,
+				7747ECC91A1BDED100D18429 /* SmoothStroke.m in Sources */,
+				7747ECC71A1BDED100D18429 /* MoveToPathElement.m in Sources */,
+				4D2273851D2A6AA4008AEE13 /* LamyPrototypeViewController.m in Sources */,
+				4DB71A971FBD3385004F53E4 /* WritingStyleViewController.m in Sources */,
+				3CDB12801AE6EBD30066B9C5 /* Brush.m in Sources */,
+				4D22738D1D2A6DC2008AEE13 /* BrushLibrary.swift in Sources */,
+				1C83D2411BB2F73E00F9048F /* Helper.m in Sources */,
+				7747ECC41A1BDED100D18429 /* LamyStatusIndicatorView.m in Sources */,
+				7747ECCB1A1BDED100D18429 /* UIColor+Components.m in Sources */,
+				4D75A99D1FFF321D00F5ED80 /* LamyRadiusView.m in Sources */,
+				4DB71A901FB5812F004F53E4 /* StylusDetailTableViewController.m in Sources */,
+				7747ECC01A1BDED100D18429 /* AbstractBezierPathElement.m in Sources */,
+				4D2273861D2A6AA4008AEE13 /* LamyPrototypeOverlayViewController.m in Sources */,
+				4DB71A981FBD3385004F53E4 /* WritingStyleSelectionView.m in Sources */,
+				7747EC821A1BDC9700D18429 /* main.m in Sources */,
+				4D2273871D2A6AA4008AEE13 /* LamyLineWidthView.m in Sources */,
+				4D2273891D2A6AA4008AEE13 /* LamyVerticalSliderView.m in Sources */,
+				7747ECC11A1BDED100D18429 /* CanvasView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7747EC911A1BDC9800D18429 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CDB12811AE6EBD30066B9C5 /* Brush.m in Sources */,
+				7747EC9C1A1BDC9800D18429 /* LamySafariNoteplusExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7747EC971A1BDC9800D18429 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7747EC7B1A1BDC9700D18429 /* LamySafariNoteplusExample */;
+			targetProxy = 7747EC961A1BDC9800D18429 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7747EC9D1A1BDC9800D18429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7747EC9E1A1BDC9800D18429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7747ECA01A1BDC9800D18429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = VSB6AFM682;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/..",
+				);
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				INFOPLIST_FILE = LamySafariNoteplusExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = net.adonit.JotWorkshop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "LamySafariNoteplusExample/LamyWorkshop-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7747ECA11A1BDC9800D18429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = VSB6AFM682;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/..",
+				);
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
+				INFOPLIST_FILE = LamySafariNoteplusExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = net.adonit.JotWorkshop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "LamySafariNoteplusExample/LamyWorkshop-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7747ECA31A1BDC9800D18429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LamySafariNoteplusExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.adonit.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LamyWorkshop.app/LamyWorkshop";
+			};
+			name = Debug;
+		};
+		7747ECA41A1BDC9800D18429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LamySafariNoteplusExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.adonit.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LamyWorkshop.app/LamyWorkshop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7747EC771A1BDC9700D18429 /* Build configuration list for PBXProject "LamySafariNoteplusExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7747EC9D1A1BDC9800D18429 /* Debug */,
+				7747EC9E1A1BDC9800D18429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7747EC9F1A1BDC9800D18429 /* Build configuration list for PBXNativeTarget "LamySafariNoteplusExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7747ECA01A1BDC9800D18429 /* Debug */,
+				7747ECA11A1BDC9800D18429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7747ECA21A1BDC9800D18429 /* Build configuration list for PBXNativeTarget "LamySafariNoteplusExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7747ECA31A1BDC9800D18429 /* Debug */,
+				7747ECA41A1BDC9800D18429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7747EC741A1BDC9700D18429 /* Project object */;
+}

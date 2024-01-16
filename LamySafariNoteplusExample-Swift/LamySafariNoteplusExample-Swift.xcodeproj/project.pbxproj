@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D4A59852B3ECE1A0083125C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4A59842B3ECE1A0083125C /* AppDelegate.swift */; };
+		4D4A59872B3ECE1A0083125C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4A59862B3ECE1A0083125C /* SceneDelegate.swift */; };
+		4D4A59892B3ECE1A0083125C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4A59882B3ECE1A0083125C /* ViewController.swift */; };
+		4D4A598E2B3ECE1B0083125C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D4A598D2B3ECE1B0083125C /* Assets.xcassets */; };
+		4D4A59912B3ECE1B0083125C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D4A598F2B3ECE1B0083125C /* LaunchScreen.storyboard */; };
+		4D4A599A2B3ECE900083125C /* LamySDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4A59992B3ECE900083125C /* LamySDK.xcframework */; };
+		4D4A599E2B3ECEAF0083125C /* LamySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4D4A599D2B3ECEAF0083125C /* LamySDK.bundle */; };
+		4D4A59A12B3ECEF80083125C /* Closures in Frameworks */ = {isa = PBXBuildFile; productRef = 4D4A59A02B3ECEF80083125C /* Closures */; };
+		4D4A59A42B3ECF000083125C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4D4A59A32B3ECF000083125C /* SnapKit */; };
+		4DD8AE372B439FA300D7B338 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8AE362B439FA300D7B338 /* main.swift */; };
+		4DD8AE392B43A12700D7B338 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD8AE382B43A12700D7B338 /* Main.storyboard */; };
+		4DD8AE3B2B43A2CC00D7B338 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8AE3A2B43A2CC00D7B338 /* CanvasView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D4A59812B3ECE1A0083125C /* LamySafariNoteplusExample-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LamySafariNoteplusExample-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D4A59842B3ECE1A0083125C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D4A59862B3ECE1A0083125C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4D4A59882B3ECE1A0083125C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D4A598D2B3ECE1B0083125C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D4A59902B3ECE1B0083125C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D4A59922B3ECE1B0083125C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D4A59992B3ECE900083125C /* LamySDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = LamySDK.xcframework; path = ../LamySDK.xcframework; sourceTree = "<group>"; };
+		4D4A599D2B3ECEAF0083125C /* LamySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = LamySDK.bundle; path = ../LamySDK.bundle; sourceTree = "<group>"; };
+		4D4A59A52B3ECF280083125C /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		4DD8AE362B439FA300D7B338 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4DD8AE382B43A12700D7B338 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4DD8AE3A2B43A2CC00D7B338 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D4A597E2B3ECE1A0083125C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D4A59A42B3ECF000083125C /* SnapKit in Frameworks */,
+				4D4A59A12B3ECEF80083125C /* Closures in Frameworks */,
+				4D4A599A2B3ECE900083125C /* LamySDK.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D4A59782B3ECE1A0083125C = {
+			isa = PBXGroup;
+			children = (
+				4D4A599D2B3ECEAF0083125C /* LamySDK.bundle */,
+				4D4A59832B3ECE1A0083125C /* LamySafariNoteplusExample-Swift */,
+				4D4A59822B3ECE1A0083125C /* Products */,
+				4D4A59982B3ECE8F0083125C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4D4A59822B3ECE1A0083125C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D4A59812B3ECE1A0083125C /* LamySafariNoteplusExample-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D4A59832B3ECE1A0083125C /* LamySafariNoteplusExample-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				4D4A59842B3ECE1A0083125C /* AppDelegate.swift */,
+				4D4A59862B3ECE1A0083125C /* SceneDelegate.swift */,
+				4D4A59882B3ECE1A0083125C /* ViewController.swift */,
+				4D4A598D2B3ECE1B0083125C /* Assets.xcassets */,
+				4D4A598F2B3ECE1B0083125C /* LaunchScreen.storyboard */,
+				4D4A59922B3ECE1B0083125C /* Info.plist */,
+				4D4A59A52B3ECF280083125C /* BridgingHeader.h */,
+				4DD8AE362B439FA300D7B338 /* main.swift */,
+				4DD8AE382B43A12700D7B338 /* Main.storyboard */,
+				4DD8AE3A2B43A2CC00D7B338 /* CanvasView.swift */,
+			);
+			path = "LamySafariNoteplusExample-Swift";
+			sourceTree = "<group>";
+		};
+		4D4A59982B3ECE8F0083125C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D4A59992B3ECE900083125C /* LamySDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D4A59802B3ECE1A0083125C /* LamySafariNoteplusExample-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D4A59952B3ECE1B0083125C /* Build configuration list for PBXNativeTarget "LamySafariNoteplusExample-Swift" */;
+			buildPhases = (
+				4D4A597D2B3ECE1A0083125C /* Sources */,
+				4D4A597E2B3ECE1A0083125C /* Frameworks */,
+				4D4A597F2B3ECE1A0083125C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LamySafariNoteplusExample-Swift";
+			packageProductDependencies = (
+				4D4A59A02B3ECEF80083125C /* Closures */,
+				4D4A59A32B3ECF000083125C /* SnapKit */,
+			);
+			productName = "LamySafariNoteplusExample-Swift";
+			productReference = 4D4A59812B3ECE1A0083125C /* LamySafariNoteplusExample-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D4A59792B3ECE1A0083125C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					4D4A59802B3ECE1A0083125C = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 4D4A597C2B3ECE1A0083125C /* Build configuration list for PBXProject "LamySafariNoteplusExample-Swift" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D4A59782B3ECE1A0083125C;
+			packageReferences = (
+				4D4A599F2B3ECEF80083125C /* XCRemoteSwiftPackageReference "Closures" */,
+				4D4A59A22B3ECF000083125C /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = 4D4A59822B3ECE1A0083125C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D4A59802B3ECE1A0083125C /* LamySafariNoteplusExample-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D4A597F2B3ECE1A0083125C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D4A599E2B3ECEAF0083125C /* LamySDK.bundle in Resources */,
+				4D4A59912B3ECE1B0083125C /* LaunchScreen.storyboard in Resources */,
+				4D4A598E2B3ECE1B0083125C /* Assets.xcassets in Resources */,
+				4DD8AE392B43A12700D7B338 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D4A597D2B3ECE1A0083125C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D4A59892B3ECE1A0083125C /* ViewController.swift in Sources */,
+				4D4A59852B3ECE1A0083125C /* AppDelegate.swift in Sources */,
+				4DD8AE3B2B43A2CC00D7B338 /* CanvasView.swift in Sources */,
+				4DD8AE372B439FA300D7B338 /* main.swift in Sources */,
+				4D4A59872B3ECE1A0083125C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D4A598F2B3ECE1B0083125C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D4A59902B3ECE1B0083125C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D4A59932B3ECE1B0083125C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D4A59942B3ECE1B0083125C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D4A59962B3ECE1B0083125C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VSB6AFM682;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LamySafariNoteplusExample-Swift/Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Application need bluetooth to connect Lamy Stylus";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.adonit.LamySafariNoteplusExample-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "LamySafariNoteplusExample-Swift/BridgingHeader.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D4A59972B3ECE1B0083125C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VSB6AFM682;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LamySafariNoteplusExample-Swift/Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Application need bluetooth to connect Lamy Stylus";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.adonit.LamySafariNoteplusExample-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "LamySafariNoteplusExample-Swift/BridgingHeader.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D4A597C2B3ECE1A0083125C /* Build configuration list for PBXProject "LamySafariNoteplusExample-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D4A59932B3ECE1B0083125C /* Debug */,
+				4D4A59942B3ECE1B0083125C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D4A59952B3ECE1B0083125C /* Build configuration list for PBXNativeTarget "LamySafariNoteplusExample-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D4A59962B3ECE1B0083125C /* Debug */,
+				4D4A59972B3ECE1B0083125C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4D4A599F2B3ECEF80083125C /* XCRemoteSwiftPackageReference "Closures" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vhesener/Closures";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.7.0;
+			};
+		};
+		4D4A59A22B3ECF000083125C /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4D4A59A02B3ECEF80083125C /* Closures */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4D4A599F2B3ECEF80083125C /* XCRemoteSwiftPackageReference "Closures" */;
+			productName = Closures;
+		};
+		4D4A59A32B3ECF000083125C /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4D4A59A22B3ECF000083125C /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4D4A59792B3ECE1A0083125C /* Project object */;
+}

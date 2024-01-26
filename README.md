@@ -1,7 +1,7 @@
 #Lamy SDK for iOS v1.0
 
 ##Overview
-The Lamy iOS SDK is a free framework for iOS that provides you with the necessary tools to integrate a complete sketching experience in your apps when used with Lamy's line of [Bluetooth connected styluses](https://www.adonit.net/stylus-for-ios/). It includes support for for the following features:
+The Lamy iOS SDK is a free framework for iOS that provides you with the necessary tools to integrate a complete sketching experience in your apps when used with Lamy's line of [Bluetooth connected styluses](https://shop.lamy.com/digital-writing). It includes support for for the following features:
 
 - Pressure Sensitivity
 - Shortcut Buttons
@@ -15,7 +15,7 @@ The Lamy iOS SDK is a free framework for iOS that provides you with the necessar
 Suggest to disable Apple Pencil when connected with LamySDK to prevent double stroke issue.
 
 ##How do I use it?
-Integrating with the Lamy iOS SDK is easy. Get up and running in no time by viewing our [wiki](https://github.com/Adonit/Lamy-iOS-SDK-draft/wiki).
+Integrating with the Lamy iOS SDK is easy. Get up and running in no time by viewing our [wiki](https://github.com/Adonit/LAMY-iPadOS-SDK/wiki).
 
 ##What versions of iOS are Supported?
 The Lamy SDK for iOS currently supports iOS 10.x and above.

@@ -18,9 +18,6 @@ extern NSString * const LamyViewControllerUnifiedStylusConnectionAndSettingsIden
 //A view controller that can be used to connect a Lamy Stylus
 extern NSString * const LamyViewControllerPressToConnectIdentifier;
 
-//A view controller that can be used to select the user's writing style
-extern NSString * const LamyViewControllerWritingStyleIdentifier;
-
 //A view controller that can be used to select actions for shortcut buttons
 extern NSString * const LamyViewControllerShortCutsIdentifier;
 

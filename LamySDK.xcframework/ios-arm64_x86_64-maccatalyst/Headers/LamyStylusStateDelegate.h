@@ -38,22 +38,6 @@
  */
 - (void)lamyStylusButton2Released;
 
-/** Called when button 3 is pressed on the stylus
- */
-- (void)lamyStylusButton3Pressed;
-
-/** Called when button 3 is released on the stylus
- */
-- (void)lamyStylusButton3Released;
-
-/** Called when button 4 is pressed on the stylus
- */
-- (void)lamyStylusButton4Pressed;
-
-/** Called when button 4 is released on the stylus
- */
-- (void)lamyStylusButton4Released;
-
 /** Called when the pressure of the stylus changes
  * @param pressure The updated pressure value
  */

@@ -18,8 +18,11 @@ extern NSString * const LamyViewControllerUnifiedStylusConnectionAndSettingsIden
 //A view controller that can be used to connect a Lamy Stylus
 extern NSString * const LamyViewControllerPressToConnectIdentifier;
 
-//A view controller that can be used to select actions for shortcut buttons
-extern NSString * const LamyViewControllerShortCutsIdentifier;
+//A view controller that can be used to select actions for shortcut button A
+extern NSString * const LamyViewControllerShortCutButtonAIdentifier;
+
+//A view controller that can be used to select actions for shortcut button B
+extern NSString * const LamyViewControllerShortCutButtonBIdentifier;
 
 //A view controller that can be used to show the battery level of a Lamy Stylus
 extern NSString * const LamyViewControllerBatteryIdentifier;

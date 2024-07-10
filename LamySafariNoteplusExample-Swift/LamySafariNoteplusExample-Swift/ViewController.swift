@@ -71,14 +71,16 @@ class ViewController: UIViewController {
         
         shortcutButtonA.onTap {
             guard let shortcutView = UIStoryboard.instantiateLamyViewController(withIdentifier: LamyViewControllerShortCutButtonAIdentifier) else { return }
-            shortcutView.modalPresentationStyle = .formSheet
+            shortcutView.modalPresentationStyle = .popover
+            shortcutView.popoverPresentationController?.sourceView = self.shortcutButtonA
             self.navigationController?.present(shortcutView, animated: true)
         }
         
         
         shortcutButtonB.onTap {
             guard let shortcutView = UIStoryboard.instantiateLamyViewController(withIdentifier: LamyViewControllerShortCutButtonBIdentifier) else { return }
-            shortcutView.modalPresentationStyle = .formSheet
+            shortcutView.modalPresentationStyle = .popover
+            shortcutView.popoverPresentationController?.sourceView = self.shortcutButtonB
             self.navigationController?.present(shortcutView, animated: true)
         }
         

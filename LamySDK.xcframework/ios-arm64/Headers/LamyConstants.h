@@ -50,40 +50,11 @@ extern NSString * const LamyStylusButton2Down;
 // Notification sent when the user releases button 2
 extern NSString * const LamyStylusButton2Up;
 
-// Notification sent when the user presses button 3 down
-extern NSString * const LamyStylusButton3Down;
-
-// Notification sent when the user releases button 3
-extern NSString * const LamyStylusButton3Up;
-
-// Notification sent when the user presses button 4 down
-extern NSString * const LamyStylusButton4Down;
-
-// Notification sent when the user releases button 4
-extern NSString * const LamyStylusButton4Up;
 
 extern NSString * const LamyStylusButton1DoubleTap;
 extern NSString * const LamyStylusButton2DoubleTap;
 extern NSString * const LamyStylusScrollRelativeValueUpdated;
 extern NSString * const LamyStylusScrollValue;
-
-/**
- * Describes how the user typically holds their Lamy Stylus
- */
-typedef NS_ENUM(NSUInteger, LamyWritingStyle) {
-    /** The user is right-handed and holds the stylus perpendicular to their wrist */
-    LamyWritingStyleRightHorizontal = 2,
-    /** The user is right-handed and holds the stylus at a 45 degree angle to their wrist */
-    LamyWritingStyleRightAverage = 1,
-    /** The user is right-handed and holds the stylus parallel to their wrist */
-    LamyWritingStyleRightVertical = 0,
-    /** The user is left-handed and holds the stylus perpendicular to their wrist */
-    LamyWritingStyleLeftHorizontal = 5,
-    /** The user is left-handed and holds the stylus at a 45 degree angle to their wrist */
-    LamyWritingStyleLeftAverage = 4,
-    /** The user is left-handed and holds the stylus parallel to their wrist */
-    LamyWritingStyleLeftVertical = 3,
-};
 
 /**
  * The connection state of the Lamy Stylus

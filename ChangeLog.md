@@ -1,5 +1,8 @@
 # Change Log for LamySDK (iOS)
 
+## V1.0.5
+- Fix the issue that innerPressToConnectIconColor not working.
+
 ## V1.0.4
 - Fix the issue that LamyViewControllerShortCutButtonBIdentifier cannot be displayed correctly.
 

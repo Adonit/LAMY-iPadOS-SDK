@@ -1,5 +1,8 @@
 # Change Log for LamySDK (iOS)
 
+## V1.0.6
+- Fix the issue that innerPressToConnectIconColor not working in some situation.
+
 ## V1.0.5
 - Fix the issue that innerPressToConnectIconColor not working.
 

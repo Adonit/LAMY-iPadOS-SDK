@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D427B492C72F8EB0068CE58 /* SettingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D427B482C72F8EB0068CE58 /* SettingPage.swift */; };
+		4D427B4B2C742B230068CE58 /* SettingsAdonitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D427B4A2C742B230068CE58 /* SettingsAdonitController.swift */; };
 		4D4A59852B3ECE1A0083125C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4A59842B3ECE1A0083125C /* AppDelegate.swift */; };
 		4D4A59872B3ECE1A0083125C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4A59862B3ECE1A0083125C /* SceneDelegate.swift */; };
 		4D4A59892B3ECE1A0083125C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4A59882B3ECE1A0083125C /* ViewController.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D427B482C72F8EB0068CE58 /* SettingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingPage.swift; sourceTree = "<group>"; };
+		4D427B4A2C742B230068CE58 /* SettingsAdonitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAdonitController.swift; sourceTree = "<group>"; };
 		4D4A59812B3ECE1A0083125C /* LamySafariNoteplusExample-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LamySafariNoteplusExample-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D4A59842B3ECE1A0083125C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D4A59862B3ECE1A0083125C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +79,8 @@
 				4D4A59842B3ECE1A0083125C /* AppDelegate.swift */,
 				4D4A59862B3ECE1A0083125C /* SceneDelegate.swift */,
 				4D4A59882B3ECE1A0083125C /* ViewController.swift */,
+				4D427B482C72F8EB0068CE58 /* SettingPage.swift */,
+				4D427B4A2C742B230068CE58 /* SettingsAdonitController.swift */,
 				4D4A598D2B3ECE1B0083125C /* Assets.xcassets */,
 				4D4A598F2B3ECE1B0083125C /* LaunchScreen.storyboard */,
 				4D4A59922B3ECE1B0083125C /* Info.plist */,
@@ -178,7 +184,9 @@
 				4D4A59852B3ECE1A0083125C /* AppDelegate.swift in Sources */,
 				4DD8AE3B2B43A2CC00D7B338 /* CanvasView.swift in Sources */,
 				4DD8AE372B439FA300D7B338 /* main.swift in Sources */,
+				4D427B4B2C742B230068CE58 /* SettingsAdonitController.swift in Sources */,
 				4D4A59872B3ECE1A0083125C /* SceneDelegate.swift in Sources */,
+				4D427B492C72F8EB0068CE58 /* SettingPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -52,6 +52,6 @@
  */
 + (UIColor *)lamyHeaderTextColor;
 
-
++ (UIColor *)colorWithDarkMode:(UIColor*)darkColor lightColor:(UIColor*)lightColor;
 
 @end

@@ -1,5 +1,9 @@
 # Change Log for LamySDK (iOS)
 
+## V1.0.7
+- Add function for customized connection instruction text and color.
+  (Only for LamyPressToConnectViewController)
+
 ## V1.0.6
 - Fix the issue that innerPressToConnectIconColor not working in some situation.
 

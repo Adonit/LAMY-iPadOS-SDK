@@ -27,6 +27,12 @@
 @property (nonatomic) BOOL showPressToConnectInstructionalText;
 
 /**
+ * Set to YES to show customized instructional text alongside the Press to Connect
+ * target, NO to hide it. Defaults to NO.
+ */
+@property (nonatomic) BOOL showCustomizedPressToConnectInstructionalText;
+
+/**
  * The stylus manager that this view controller should communicate with
  * Default to [LamyStylusManager sharedInstance].
  */
@@ -103,5 +109,15 @@
  * Called whenever you change an appearance related setting or the controller's view loads
  */
 - (void)updateViewWithAppearanceSettings;
+
+/**
+ * The text to show on alongside the Press To Connect target.
+ */
+- (void)setCustomizedConnectionInstructionText:(NSString *)text;
+
+/**
+ * A color used  for customized instructional text alongside the Press to Connect
+ */
+- (void)setCustomizedConnectionInstructionTextColor:(UIColor *)color;
 
 @end

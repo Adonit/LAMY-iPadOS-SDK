@@ -1,4 +1,4 @@
-# LAMY iPadOS SDK for iPadOS v1.0.5
+# LAMY iPadOS SDK for iPadOS v1.0.8
 
 ## Overview
 The LAMY iPadOS SDK is a free framework for iPadOS that provides you with the necessary tools to integrate a complete sketching experience in your apps when used with Lamy's line of [Bluetooth connected styluses](https://shop.lamy.com/digital-writing). It includes support for for the following features:

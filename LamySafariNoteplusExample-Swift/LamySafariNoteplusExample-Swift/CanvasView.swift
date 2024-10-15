@@ -7,7 +7,7 @@ import UIKit
 
 let π = CGFloat.pi
 
-class CanvasView: UIImageView {
+class CanvasView: UIImageView{
     // Parameters
     private let defaultLineWidth: CGFloat = 6
     private let forceSensitivity: CGFloat = 20.0

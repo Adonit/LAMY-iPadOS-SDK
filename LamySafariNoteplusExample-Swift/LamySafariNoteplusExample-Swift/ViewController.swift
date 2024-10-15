@@ -9,6 +9,7 @@ import Closures
 import SnapKit
 import UIKit
 
+@MainActor
 class ViewController: UIViewController {
     var canvasView: CanvasView = .init()
     var clearButton: UIButton = .init()

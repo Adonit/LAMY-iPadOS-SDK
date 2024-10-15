@@ -23,6 +23,7 @@ extern NSString * const LamyStylusManagerDiscoveryAttemptedButBluetoothOffNotifi
 /** 
  * The main interface for interacting with Lamy styluses
  */
+NS_SWIFT_SENDABLE
 @interface LamyStylusManager : NSObject
 
 /**

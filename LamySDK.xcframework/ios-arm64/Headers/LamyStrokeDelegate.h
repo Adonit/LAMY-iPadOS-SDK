@@ -13,6 +13,7 @@
 
 /** The LamyStrokeDelegate receives important events related to stylus events
  */
+NS_SWIFT_UI_ACTOR
 @protocol LamyStrokeDelegate <NSObject>
 
 #pragma mark - Stylus Events

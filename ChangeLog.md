@@ -1,5 +1,8 @@
 # Change Log for LamySDK (iOS)
 
+## V1.0.8
+- Swift 6 support.
+
 ## V1.0.7
 - Add function for customized connection instruction text and color.
   (Only for LamyPressToConnectViewController)
